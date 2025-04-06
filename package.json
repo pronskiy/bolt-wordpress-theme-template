@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx http-server -o ./",
+    "dev": "npx @wp-now/wp-now start",
+    "dev_t": "npx http-server -o ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
