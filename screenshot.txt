@@ -1,0 +1,22 @@
+# Screenshot.png Placeholder
+
+This file is a placeholder for the actual screenshot.png file that should be created for the WordPress theme.
+
+## Requirements for screenshot.png:
+
+1. The screenshot should be a PNG image
+2. The recommended size is 1200x900 pixels
+3. The image should represent the theme's appearance when installed
+4. It should show the homepage or a typical page layout
+5. The file should be placed in the root directory of the theme
+6. The file must be named "screenshot.png" (all lowercase)
+
+## What to include in the screenshot:
+
+- The theme's header with logo and navigation
+- Main content area with sample posts
+- Sidebar with widgets
+- Footer area
+- The overall color scheme and design elements
+
+When creating the actual WordPress theme, replace this text file with a proper screenshot.png image.
