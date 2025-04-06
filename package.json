@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @wp-now/wp-now start",
+    "dev": "npx --yes @wp-now/wp-now start --port=80",
     "dev_t": "npx http-server -o ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
