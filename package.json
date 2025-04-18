@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx --yes @wp-now/wp-now start --port=80",
+    "dev": "npx --yes @wp-now/wp-now start --port=80 --skip-browser",
     "dev_t": "npx http-server -o ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "git clone --depth 1 --branch \"6.8\" https://github.com/WordPress/WordPress.git"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pronskiy/bolt-wordpress-theme-template.git"
-  },
-  "dependencies": {
   },
   "private": true
 }
