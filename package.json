@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx --yes @wp-playground/cli@latest server --port=80 --skip-browser",
+    "dev": "npx --yes @wp-playground/cli@latest server --port=8080 --skip-browser --skipWordPressSetup --mountBeforeInstall=\"./prebuilt-wp-content-for-wp-6.8/:/wordpress\"",
     "dev_t": "npx http-server -o ./",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "mkdir -p ~/.wordpress-playground; cp ./dev-dependencies/* ~/.wordpress-playground/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
