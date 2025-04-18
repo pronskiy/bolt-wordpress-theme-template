@@ -55,7 +55,7 @@ wp-content/plugins/hello.php
 *.jar
 *.rar
 *.tar
-*.zip
+#*.zip
 
 # Compiled source
 *.com
